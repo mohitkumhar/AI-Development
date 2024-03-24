@@ -1,0 +1,264 @@
+Below are the SQL commands to create the necessary tables and insert data for each question. This includes a minimum of 20 rows of data for the relevant tables.
+
+### Table Creation and Data Insertion
+
+#### 1. `students` Table
+
+```sql
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT
+);
+
+INSERT INTO students (id, name, age) VALUES
+(1, 'Alice', 20),
+(2, 'Bob', 22),
+(3, 'Charlie', 23),
+(4, 'David', 21),
+(5, 'Eve', 20),
+(6, 'Frank', 22),
+(7, 'Grace', 23),
+(8, 'Hannah', 21),
+(9, 'Ivy', 20),
+(10, 'Jack', 22),
+(11, 'Ken', 23),
+(12, 'Lily', 21),
+(13, 'Mona', 20),
+(14, 'Nancy', 22),
+(15, 'Oscar', 23),
+(16, 'Paul', 21),
+(17, 'Quincy', 20),
+(18, 'Rachel', 22),
+(19, 'Steve', 23),
+(20, 'Tom', 21);
+```
+
+#### 2. `employees` Table
+
+```sql
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    salary DECIMAL(10, 2),
+    department_id INT
+);
+
+INSERT INTO employees (employee_id, name, salary, department_id) VALUES
+(1, 'Alice', 60000, 1),
+(2, 'Bob', 55000, 2),
+(3, 'Charlie', 70000, 3),
+(4, 'David', 48000, 2),
+(5, 'Eve', 52000, 1),
+(6, 'Frank', 50000, 3),
+(7, 'Grace', 68000, 1),
+(8, 'Hannah', 59000, 2),
+(9, 'Ivy', 61000, 3),
+(10, 'Jack', 65000, 1),
+(11, 'Ken', 53000, 2),
+(12, 'Lily', 72000, 3),
+(13, 'Mona', 58000, 1),
+(14, 'Nancy', 54000, 2),
+(15, 'Oscar', 47000, 3),
+(16, 'Paul', 62000, 1),
+(17, 'Quincy', 50000, 2),
+(18, 'Rachel', 51000, 3),
+(19, 'Steve', 66000, 1),
+(20, 'Tom', 57000, 2);
+```
+
+#### 3. `products` Table
+
+```sql
+CREATE TABLE products (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100),
+    price DECIMAL(10, 2)
+);
+
+INSERT INTO products (product_id, product_name, price) VALUES
+(1, 'Product A', 10.00),
+(2, 'Product B', 20.00),
+(3, 'Product C', 15.00),
+(4, 'Product D', 30.00),
+(5, 'Product E', 25.00),
+(6, 'Product F', 35.00),
+(7, 'Product G', 40.00),
+(8, 'Product H', 45.00),
+(9, 'Product I', 50.00),
+(10, 'Product J', 55.00),
+(11, 'Product K', 60.00),
+(12, 'Product L', 65.00),
+(13, 'Product M', 70.00),
+(14, 'Product N', 75.00),
+(15, 'Product O', 80.00),
+(16, 'Product P', 85.00),
+(17, 'Product Q', 90.00),
+(18, 'Product R', 95.00),
+(19, 'Product S', 100.00),
+(20, 'Product T', 105.00);
+```
+
+#### 4. `orders` Table
+
+```sql
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    customer_id INT,
+    order_date DATE
+);
+
+INSERT INTO orders (order_id, customer_id, order_date) VALUES
+(1, 1, '2023-01-01'),
+(2, 2, '2023-01-02'),
+(3, 3, '2023-01-03'),
+(4, 4, '2023-01-04'),
+(5, 5, '2023-01-05'),
+(6, 6, '2023-01-06'),
+(7, 7, '2023-01-07'),
+(8, 8, '2023-01-08'),
+(9, 9, '2023-01-09'),
+(10, 10, '2023-01-10'),
+(11, 11, '2023-01-11'),
+(12, 12, '2023-01-12'),
+(13, 13, '2023-01-13'),
+(14, 14, '2023-01-14'),
+(15, 15, '2023-01-15'),
+(16, 16, '2023-01-16'),
+(17, 17, '2023-01-17'),
+(18, 18, '2023-01-18'),
+(19, 19, '2023-01-19'),
+(20, 20, '2023-01-20');
+```
+
+#### 5. `customers` Table
+
+```sql
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    customer_name VARCHAR(100)
+);
+
+INSERT INTO customers (customer_id, customer_name) VALUES
+(1, 'Customer A'),
+(2, 'Customer B'),
+(3, 'Customer C'),
+(4, 'Customer D'),
+(5, 'Customer E'),
+(6, 'Customer F'),
+(7, 'Customer G'),
+(8, 'Customer H'),
+(9, 'Customer I'),
+(10, 'Customer J'),
+(11, 'Customer K'),
+(12, 'Customer L'),
+(13, 'Customer M'),
+(14, 'Customer N'),
+(15, 'Customer O'),
+(16, 'Customer P'),
+(17, 'Customer Q'),
+(18, 'Customer R'),
+(19, 'Customer S'),
+(20, 'Customer T');
+```
+
+#### 6. `sales` Table
+
+```sql
+CREATE TABLE sales (
+    sale_id INT PRIMARY KEY,
+    product_id INT,
+    region VARCHAR(50),
+    sale_date DATE,
+    amount DECIMAL(10, 2)
+);
+
+INSERT INTO sales (sale_id, product_id, region, sale_date, amount) VALUES
+(1, 1, 'North', '2023-01-01', 100.00),
+(2, 2, 'South', '2023-01-02', 200.00),
+(3, 3, 'East', '2023-01-03', 150.00),
+(4, 4, 'West', '2023-01-04', 300.00),
+(5, 5, 'North', '2023-01-05', 250.00),
+(6, 6, 'South', '2023-01-06', 350.00),
+(7, 7, 'East', '2023-01-07', 400.00),
+(8, 8, 'West', '2023-01-08', 450.00),
+(9, 9, 'North', '2023-01-09', 500.00),
+(10, 10, 'South', '2023-01-10', 550.00),
+(11, 11, 'East', '2023-01-11', 600.00),
+(12, 12, 'West', '2023-01-12', 650.00),
+(13, 13, 'North', '2023-01-13', 700.00),
+(14, 14, 'South', '2023-01-14', 750.00),
+(15, 15, 'East', '2023-01-15', 800.00),
+(16, 16, 'West', '2023-01-16', 850.00),
+(17, 17, 'North', '2023-01-17', 900.00),
+(18, 18, 'South', '2023-01-18', 950.00),
+(19, 19, 'East', '2023-01-19', 1000.00),
+(20, 20, 'West', '2023-01-20', 1050.00);
+```
+
+#### 7. `departments` Table
+
+```sql
+CREATE TABLE departments (
+    department_id INT PRIMARY KEY,
+    department_name VARCHAR(100)
+);
+
+INSERT INTO departments (department_id, department_name) VALUES
+(1, 'HR'),
+(2, 'Finance'),
+(3, 'Engineering'),
+(4, 'Marketing'),
+(5, 'Sales'),
+(6, 'Support'),
+(7, 'R&D'),
+(8, 'Operations'),
+(9, 'IT'),
+(10, 'Admin'),
+(11, 'Logistics'),
+(12, 'Proc
+
+urement'),
+(13, 'Quality Assurance'),
+(14, 'Legal'),
+(15, 'Security'),
+(16, 'Customer Service'),
+(17, 'Training'),
+(18, 'Compliance'),
+(19, 'Strategy'),
+(20, 'Business Development');
+```
+
+#### 8. `accounts` Table
+
+```sql
+CREATE TABLE accounts (
+    account_id INT PRIMARY KEY,
+    customer_id INT,
+    balance DECIMAL(10, 2)
+);
+
+INSERT INTO accounts (account_id, customer_id, balance) VALUES
+(1, 1, 1000.00),
+(2, 2, 1500.00),
+(3, 3, 2000.00),
+(4, 4, 2500.00),
+(5, 5, 3000.00),
+(6, 6, 3500.00),
+(7, 7, 4000.00),
+(8, 8, 4500.00),
+(9, 9, 5000.00),
+(10, 10, 5500.00),
+(11, 11, 6000.00),
+(12, 12, 6500.00),
+(13, 13, 7000.00),
+(14, 14, 7500.00),
+(15, 15, 8000.00),
+(16, 16, 8500.00),
+(17, 17, 9000.00),
+(18, 18, 9500.00),
+(19, 19, 10000.00),
+(20, 20, 10500.00);
+```
+
+These commands create the necessary tables and insert a minimum of 20 rows of data for each. You can use these to practice the SQL questions provided.
