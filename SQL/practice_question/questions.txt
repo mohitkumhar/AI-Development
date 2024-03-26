@@ -1,0 +1,62 @@
+Sure, here are some SQL practice questions for each of the topics you listed:
+
+### 1. Getting Started with SQL
+1. Create a table named `Students` with columns `StudentID`, `FirstName`, `LastName`, and `EnrollmentDate`.
+2. Insert a new record into the `Students` table with appropriate values.
+
+### 2. Learn SQL the Right Way
+3. Write a query to select all columns from a table named `Employees`.
+4. Select only the `FirstName` and `LastName` columns from the `Employees` table.
+
+### 3. Primary vs Unique Key
+5. Create a table `Courses` with `CourseID` as a primary key and `CourseName` as a unique key.
+6. Explain the difference between a primary key and a unique key in SQL.
+
+### 4. Update, Delete, Alter (DDL vs DML), Truncate vs Delete
+7. Write a query to update the `LastName` of a student with `StudentID` = 1 in the `Students` table.
+8. Delete a record from the `Students` table where `StudentID` = 2.
+9. Alter the `Courses` table to add a new column `Credits`.
+10. Explain the difference between `TRUNCATE` and `DELETE` statements in SQL.
+
+### 5. Foreign Key Constraint
+11. Create a table `Enrollments` with `EnrollmentID`, `StudentID`, and `CourseID`, where `StudentID` is a foreign key referencing the `Students` table.
+12. Write a query to display all `Enrollments` including student names by joining `Enrollments` with `Students`.
+
+### 6. Distinct, Order By, Limit, Like
+13. Select distinct `CourseName` from the `Courses` table.
+14. Write a query to select all columns from the `Students` table and order the results by `EnrollmentDate` in descending order.
+15. Select the first 5 records from the `Students` table.
+16. Find all students whose `LastName` starts with 'S' using the `LIKE` operator.
+
+### 7. Order of Execution
+17. Write a query using a subquery to find all courses with enrollments greater than 5.
+18. Explain the order of execution in an SQL query with `SELECT`, `FROM`, `WHERE`, `GROUP BY`, `HAVING`, and `ORDER BY`.
+
+### 9. More Data Types
+19. Create a table `Library` with columns `BookID` (integer), `Title` (varchar), `PublishedDate` (date), and `IsAvailable` (boolean).
+20. Insert a record into the `Library` table with appropriate data types.
+
+### 10. Logical Operators
+21. Select all students who enrolled after January 1, 2020, and whose last name starts with 'J'.
+22. Write a query to find all students who are either in `CourseID` = 1 or `CourseID` = 2 in the `Enrollments` table.
+
+### 11. Joins
+23. Write a query to join `Students` and `Enrollments` tables to display student names and their enrolled courses.
+24. Use a LEFT JOIN to find all students and their enrollment details, including those who are not enrolled in any course.
+
+### 12. WHERE vs HAVING Clause
+25. Select all students who enrolled after January 1, 2020, using the `WHERE` clause.
+26. Group the `Enrollments` by `CourseID` and use the `HAVING` clause to find courses with more than 10 enrollments.
+
+### 13. OVER Clause vs PARTITION BY Clause
+27. Write a query using the `OVER` clause to calculate the running total of enrollments ordered by `EnrollmentDate`.
+28. Use the `PARTITION BY` clause to calculate the number of enrollments per student.
+
+### 14. ROW_NUMBER()
+29. Write a query to assign a row number to each student ordered by `EnrollmentDate`.
+
+### 15. RANK and DENSE_RANK
+30. Write a query to rank students by their `EnrollmentDate` using the `RANK()` function.
+31. Use the `DENSE_RANK()` function to rank students by their `EnrollmentDate`.
+
+Feel free to use these questions for practice to enhance your understanding of SQL concepts.
