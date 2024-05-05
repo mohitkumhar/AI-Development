@@ -1,0 +1,43 @@
+Sure, here are 20 beginner-friendly OOPs questions in Python, gradually increasing in difficulty:
+
+1. Create a Python class named `Person` with attributes `name` and `age`. Initialize an object with these attributes and print them.
+   
+2. Create a class `Rectangle` with attributes `width` and `height`. Add a method `calculate_area` that returns the area of the rectangle.
+
+3. Create a class `Circle` with attribute `radius`. Add a method `calculate_area` that returns the area of the circle.
+
+4. Create a class `Student` with attributes `name` and `age`. Create a method `print_student_details` to print the details of the student.
+
+5. Create a class `BankAccount` with attributes `balance` and methods `deposit` and `withdraw` to add or subtract money from the balance.
+
+6. Create a class `Car` with attributes `make`, `model`, and `year`. Create a method `get_info` to print the details of the car.
+
+7. Create a class `Animal` with a method `sound` that prints the sound the animal makes.
+
+8. Create a class `Dog` that inherits from `Animal` and has an additional method `bark` which prints "Woof!"
+
+9. Create a class `Cat` that inherits from `Animal` and has an additional method `meow` which prints "Meow!"
+
+10. Create a class `Employee` with attributes `name`, `salary`, and `role`. Create a method `calculate_bonus` that returns 10% of the salary.
+
+11. Create a class `Triangle` with attributes `side1`, `side2`, and `side3`. Add a method `is_equilateral` to check if the triangle is equilateral.
+
+12. Create a class `Point` with attributes `x` and `y`. Add a method `distance_to_origin` that calculates the distance from the point to the origin (0,0).
+
+13. Create a class `Bank` with attributes `name` and `branches`. Add a method `add_branch` to add a new branch to the bank.
+
+14. Create a class `Book` with attributes `title`, `author`, and `year`. Add a method `is_published_in_21st_century` to check if the book was published after 2000.
+
+15. Create a class `Shape` with an abstract method `area`. Create subclasses `Rectangle` and `Circle` that implement this method.
+
+16. Create a class `Vehicle` with attributes `speed` and `mileage`. Add a method `calculate_travel_time` that calculates the time taken to travel a given distance.
+
+17. Create a class `Square` that inherits from `Rectangle` and has a method `calculate_perimeter` to calculate the perimeter.
+
+18. Create a class `Manager` that inherits from `Employee` and has an additional attribute `team_size`. Override the `calculate_bonus` method to return 15% of the salary.
+
+19. Create a class `BankAccount` with attributes `balance` and `interest_rate`. Add a method `calculate_interest` that returns the interest earned based on the balance and interest rate.
+
+20. Create a class `Email` with attributes `sender`, `recipient`, and `content`. Add a method `send` to send the email and print a confirmation message.
+
+These questions cover various OOPs concepts in Python and gradually increase in complexity from basic to intermediate levels.
