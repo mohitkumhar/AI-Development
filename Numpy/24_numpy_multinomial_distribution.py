@@ -6,4 +6,4 @@ x = random.multinomial(n=6, pvals=[1/6,1/6,1/6,1/6,1/6,1/6])
 print(x)
 
 
-# multinomial samples will not produce a single value, they will produce one value for each pvals (ist of possibilities)
+# multinomial samples will not produce a single value, they will produce one value for each pvals (list of possibilities)

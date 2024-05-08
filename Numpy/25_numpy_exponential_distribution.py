@@ -1,4 +1,4 @@
-# Exponential Distribution - it is used for describing the time till next evenet that is like failure or success
+# Exponential Distribution - it is used for describing the time till next event that is like failure or success
 
 # param - scale(inverse of rate(check lam in poisson distribution)), size
 

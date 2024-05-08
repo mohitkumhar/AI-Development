@@ -1,4 +1,4 @@
-# logistic destribution - describe growth it is basically imp in regression and neural network
+# logistic distribution - describe growth it is basically imp in regression and neural network
 
 # param - loc(mean {default value = 0}), scale(standard deviation {default value = 1}), size
 
