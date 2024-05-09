@@ -68,7 +68,7 @@ x = np.divmod(x1, x2)
 print(x)    # (array([ 3,  2,  3,  5, 25,  1]), array([ 1,  6,  3,  0,  0, 27]))
 
 
-# absolute() / abs() - do the same operation but here we should use absolute() to aboid confusion with python inbuilt finction math.abs()
+# absolute() / abs() - do the same operation but here we should use absolute() to avoid confusion with python inbuilt function math.abs()
 
 import numpy as np
 x = np.array([-1,-2,-3,-4,-5,6])

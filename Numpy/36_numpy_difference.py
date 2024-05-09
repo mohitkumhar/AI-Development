@@ -4,4 +4,4 @@
 import numpy as np
 x1 = np.array([10,15,25,5])
 x = np.diff(x1)     # [15-10, 25-15, 5-25]
-print(x)     # [5, 10, -20]
+print(x)     # [5 10 -20]

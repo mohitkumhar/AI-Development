@@ -3,7 +3,7 @@
 # param - a(shape), size
 
 
-# sample of pareto distribution with shape2 and size 2*3
+# sample of pareto distribution with shape 2 and size 2*3
 from numpy import random
 x = random.pareto(a=2, size=(2,3))
 print(x)

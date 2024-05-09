@@ -1,4 +1,4 @@
-# tigonometric function - numpy provides the ufuncs line sin(), cos() and tan() that takes values on radians and produce the corresponding sin, cos and tan values.
+# tigonometric function - numpy provides the ufuncs like sin(), cos() and tan() that takes values on radians and produce the corresponding sin, cos and tan values.
 
 
 # to find the sin value of pi/2
@@ -51,7 +51,7 @@ x = np.arcsin(x1)
 print(x)     # [ 1.57079633  0.52359878 -1.57079633 -0.52359878]
 
 
-# to findthe hypotenous using the pythagoras theoram in numpy
+# to find the hypotenous using the pythagoras theoram in numpy
 
 # hypot() - this function takes values in radians and produce the corresponding sin, cos and tan values
 
@@ -60,7 +60,7 @@ import numpy as np
 base = 3
 per = 4
 x = np.hypot(base, per)
-print(x)
+print(x)     # 5.0
 
 
 

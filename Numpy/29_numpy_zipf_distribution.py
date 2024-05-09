@@ -1,6 +1,6 @@
 # Zipf distribution - common word in english has occure nearly 1/5 time as of the most hindi words
 
-# param = a(distrution paramater), size
+# param = a(distribution paramater), size
 
 
 # sample for zipf(distribution), with a as 2 with size 2*3

@@ -31,7 +31,7 @@ print(x)    # [6 6]
 
 # represent by cumsum()
 
-import numpy as n
+import numpy as np
 x1 = np.array([1,2,3,4])
 x = np.cumsum(x1)
 print(x)    # [ 1  3  6 10]

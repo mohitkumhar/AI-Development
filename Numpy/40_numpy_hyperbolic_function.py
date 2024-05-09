@@ -18,11 +18,6 @@ import numpy as np
 x1 = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])
 x = np.cosh(x1)     # [2.50917848 1.60028686 1.32460909 1.20397209]
 print(x)
-# to find cosh value in array
-import numpy as np
-x1 = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])
-x = np.cosh(x1)     # [2.50917848 1.60028686 1.32460909 1.20397209]
-print(x)
 
 
 # to find cosh value in array
