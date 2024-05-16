@@ -13,7 +13,7 @@ x.loc[3, 'Date'] = 12122004
 print(x.to_string())
 
 
-# for larger dataset: we loop through all the values in "Data_value" column, if the value is higher than 120 then set it to 120
+# for larger dataset: we loop through all the values in "Data_value" column, if the value is higher than 120 then set it to 200
 import pandas as pd
 x = pd.read_csv("data.csv")
 for i in x.index:
