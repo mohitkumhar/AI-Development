@@ -3,7 +3,7 @@
 # dataframe.iloc[row_index, column]
 
 
-# selecting in single element
+# selecting a single element
 # val = dataframe.iloc[row_index, column]
 
 # selecting a specific row
@@ -28,6 +28,8 @@ data = {'name': ['mohit', 'heisenberg', 'qwerty', 'heisen'],
         'country': ['india', 'canada', 'uk', 'austarlia']}
 
 df = pd.DataFrame(data)
+print(df)
+print()
 
 # selecting 'canada'
 element = df.iloc[1,2]
