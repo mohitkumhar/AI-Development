@@ -27,7 +27,6 @@
 # Bar PLot
 # Stem PLot
 # Step PLot
-# Hist PLot
+# Histogram PLot
 # Box PLot
 # Pie PLot
-# Fill_Between Plot
