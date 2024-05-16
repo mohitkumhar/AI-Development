@@ -4,27 +4,32 @@ x = ["python", "C", "c++", "java"]
 y = [85,70,60,82]
 
 plt.xlabel("Language", fontsize=15)
-plt.ylabel("Popularity", fontsize=15)
-plt.title("Analysis", fontsize=15)
-
-color = ["y", "c", "m", "g"]
-plt.bar(x, y, width=0.4, color=color, align='center', edgecolor='black', linewidth=2, linestyle=':', alpha=0.4, label="Analysis")
-plt.legend()
-plt.show()
-
 # plt.xlabel("Language", fontsize=15): Adds a label to the x-axis of the plot. The label text is "Language" and it's displayed with a font size of 15.
 
+plt.ylabel("Popularity", fontsize=15)
 # plt.ylabel("Popularity", fontsize=15): Adds a label to the y-axis of the plot. The label text is "Popularity" and it's displayed with a font size of 15.
 
+plt.title("Analysis", fontsize=15)
 # plt.title("Analysis", fontsize=15): Sets the title of the plot to "Analysis" with a font size of 15.
 
+color = ["y", "c", "m", "g"]
 # color = ["y", "c", "m", "g"]: Defines colors for each bar in the bar chart. Here, 'y' stands for yellow, 'c' for cyan, 'm' for magenta, and 'g' for green.
 
+plt.bar(x, y, width=0.4, color=color, align='center', edgecolor='black', linewidth=2, linestyle=':', alpha=0.4, label="Analysis")
 # plt.bar(x, y, width=0.4, color=color, align='center', edgecolor='black', linewidth=2, linestyle=':', alpha=0.4, label="Analysis"): Creates a bar chart using the data in x (labels) and y (values). The bars have a width of 0.4 and are colored according to the color list. Bars are centered (align='center'), have black edges (edgecolor='black') with a thickness of 2, and a dotted line style (linestyle=':'). The bars are slightly transparent (alpha=0.4). Each bar is labeled as "Analysis" for the legend.
 
+plt.legend()
 # plt.legend(): Shows a legend on the plot based on the label specified in plt.bar(), which is "Analysis" in this case.
 
+plt.show()
 # plt.show(): Displays the plot on the screen.
+
+
+
+
+
+
+
 
 
 
