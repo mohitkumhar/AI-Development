@@ -8,7 +8,7 @@ SELECT COUNT(DISTINCT student_company) AS number_of_company FROM student;
 SELECT COUNT(batch_date) FROM student WHERE batch_date LIKE '%-05-%'; -- student who join batch in may month
 
 -- GROUP BY
--- what i want is to know that how many people have joined my course git to know about me through
+-- what i want is to know that how many people have joined my course get to know about me through
 
 -- like:
 -- linkedin - 5
