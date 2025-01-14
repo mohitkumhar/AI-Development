@@ -1,8 +1,7 @@
 virtual_vnv/
 tempCodeRunnerFile.py
 .ipynb_checkpoints/
-*.pdf
-*.png
-*.jpg
-*.csv
+
 .vscode/
+virtual_env/
+.venv
