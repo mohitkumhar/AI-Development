@@ -6,3 +6,5 @@ tempCodeRunnerFile.py
 virtual_env/
 .venv
 runs/
+images/
+*.pt
