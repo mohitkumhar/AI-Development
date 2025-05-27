@@ -8,3 +8,4 @@ virtual_env/
 runs/
 images/
 *.pt
+pets dataset/
