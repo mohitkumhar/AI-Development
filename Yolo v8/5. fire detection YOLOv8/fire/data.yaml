@@ -1,0 +1,5 @@
+train: F:\ai\AI-Development\Yolo v8\5. fire detection YOLOv8\fire\train
+val: F:\ai\AI-Development\Yolo v8\5. fire detection YOLOv8\fire\val
+
+nc: 3
+names: ['fire', 'other', 'smoke']
