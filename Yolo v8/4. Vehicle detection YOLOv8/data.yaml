@@ -1,0 +1,13 @@
+train: F:\ai\AI-Development\Yolo v8\4. Vehicle detection YOLOv8\dataset-vehicles\images\train
+val: F:\ai\AI-Development\Yolo v8\4. Vehicle detection YOLOv8\dataset-vehicles\images\val
+test: F:\ai\AI-Development\Yolo v8\4. Vehicle detection YOLOv8\dataset-vehicles\images\test
+
+nc: 5
+
+
+names:
+  0: Car
+  1: Motorcycle
+  2: Truck
+  3: Bus
+  4: Bicycle
