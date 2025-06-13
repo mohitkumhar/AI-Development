@@ -9,3 +9,4 @@ runs/
 images/
 *.pt
 pets dataset/
+*.zip
