@@ -10,3 +10,4 @@ images/
 *.pt
 pets dataset/
 *.zip
+*.txt
