@@ -11,3 +11,5 @@ images/
 pets dataset/
 *.zip
 *.txt
+*.cache
+*.mp4
