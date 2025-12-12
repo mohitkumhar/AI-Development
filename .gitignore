@@ -17,3 +17,4 @@ pets dataset/
 utkFaceModel.pkl
 DL/UTKFace/
 DL/dogs_vs_cats/
+*.env
