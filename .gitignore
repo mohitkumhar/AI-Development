@@ -13,3 +13,4 @@ pets dataset/
 *.txt
 *.cache
 *.mp4
+utkFaceModel.pkl
