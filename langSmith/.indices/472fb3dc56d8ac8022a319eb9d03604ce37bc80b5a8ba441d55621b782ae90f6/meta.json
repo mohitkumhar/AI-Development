@@ -1,0 +1,6 @@
+{
+  "pdf_path": "D:\\ai\\ai-development\\langSmith\\resume.pdf",
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "embedding_model": "text-embedding-3-small"
+}

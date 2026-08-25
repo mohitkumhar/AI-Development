@@ -21,3 +21,11 @@ remaining tut
 | OpenAI         | o3-mini          | Micro       | 8 B                | Reasoning             | ✅   | —     | —           | Intent routing; math/regex helper; anomaly scoring; guard-rails; config linting              | [Pricing](https://www.helicone.ai/llm-cost/provider/azure/model/o4-mini-2025-04-16) | [Pricing](https://www.helicone.ai/llm-cost/provider/azure/model/o4-mini-2025-04-16) | Low            | Very Low       |
 | Google         | Gemini 2.5 Pro   | Very Large  | 540 B              | Multimodal Reasoning  | ✅   | —     | ✅           | 200 k-ctx reviews; multimodal debugging; compliance audits; capacity what-ifs; cost sandboxing | [Pricing](https://cloud.google.com/vertex-ai/generative-ai/pricing) | [Pricing](https://cloud.google.com/vertex-ai/generative-ai/pricing) | Mid            | Medium         |
 | Google         | Gemini 2.5 Flash | Mid         | 25 B               | Reasoning             | ✅   | —     | ✅           | Latency-critical chat; doc labeling; cost anomaly alerts; code hints; live translation       | [Pricing](https://cloud.google.com/vertex-ai/generative-ai/pricing) | [Pricing](https://cloud.google.com/vertex-ai/generative-ai/pricing) | Low            | Very Low       |
+
+
+
+# Star History
+![Alt text](https://api.star-history.com/svg?repos=mohitkumhar/ai-development)
+
+
+
